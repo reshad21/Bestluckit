@@ -1,0 +1,381 @@
+/*@import "css/trainer.css";*/
+
+
+/*google fonts*/
+
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: arial, sans-sarif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: arial;
+    color: #020202;
+}
+
+p {
+    font-family: arial;
+    color: #020202;
+}
+
+:root {
+    --common-color: #d0c66d;
+}
+
+.mt {
+    margin-top: -10px;
+}
+
+.bg-success {
+    background-color: #2b55fe!important;
+}
+
+
+/*topber section*/
+
+.row.header-row {
+    align-items: center;
+}
+
+.bg-success {
+    padding: 22px 0;
+}
+
+.bst-logo img {
+    max-width: 119px;
+    height: 72px;
+}
+
+.bst-phn ul,
+.bst-email {
+    position: relative;
+}
+
+.bst-phn ul span,
+.bst-email ul span {
+    display: block;
+    position: absolute;
+    top: 2px;
+    left: -58px;
+    background: var(--common-color);
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    /*! transform: translateY(-50%); */
+    padding-top: 9px;
+    border-radius: 50%;
+}
+
+.bst-phn ul li a,
+.bst-email ul li a {
+    display: block;
+    color: #d0c66d;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0, 0, 0, .55);
+    font-size: 18px;
+    font-weight: 800;
+    font-family: sans-serif;
+}
+
+
+/*section one*/
+
+.bst-achive-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #ddd;
+    box-shadow: 0px 2px 3px #6c6c6c;
+    padding: 20px 0;
+}
+
+.bst-achive-one strong {
+    color: #92793f;
+    font-size: 19px;
+}
+
+
+/*our message */
+
+.bsl-about-us {
+    /*! text-align: justify; */
+    /*! padding: 40px 100px; */
+    font-family: 'Galada', cursive;
+    font-size: 17px;
+    /*! font-weight: 500; */
+    color: #3c3b3b;
+}
+
+
+/*section two*/
+
+.bsl-sect-item {
+    background: #ddd;
+    padding: 20px 15px;
+    box-shadow: 0px 2px 3px #696868;
+    height: 254px;
+}
+
+.bsl-sect-item strong {
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.bsl-sect-item p {
+    text-align: justify;
+    padding: 20px 15px;
+    font-family: 'Galada', cursive;
+    font-size: 17px;
+    /*! font-weight: 500; */
+    color: #3c3b3b;
+}
+
+.bsl-align {
+    align-items: center;
+}
+
+.bsl-leader-message {
+    font-family: 'Galada', cursive;
+    font-size: 17px;
+    /*! font-weight: 500; */
+    color: #3c3b3b;
+}
+
+
+/*footer section*/
+
+.footer-bg {
+    background: #e1e0d3;
+    color: #26829e;
+    padding: 10px 0;
+    padding-top: 30px;
+}
+
+.bsl-footer-left,
+.bsl-footer-middle,
+.bsl-footer-right {
+    text-align: center;
+}
+
+.bsl-footer-left ul {
+    display: flex;
+}
+
+.bsl-footer-left ul li {
+    margin: 0px 10px;
+}
+
+.bsl-footer-left ul li a {
+    display: block;
+    color: #0009;
+    font-size: 10px;
+}
+
+
+/* --------middle section---------- */
+
+.bsl-footer-middle img {
+    width: 123px;
+    height: 76px;
+}
+
+.bsl-footer-right ul li a about-ft-icon {
+    display: inline-block;
+}
+
+.bsl-footer-right ul li a .contact-ft-icon {
+    /*padding : 14px;*/
+    display: inline-block;
+}
+
+.bsl-footer-right ul li a .tandc-ft-icon {
+    margin-left: 52px;
+    display: inline-block;
+}
+
+.bsl-footer-right ul li small {
+    margin-right: 13px;
+}
+
+.bsl-footer-right ul li a small.about-ft-icon {
+    margin-left: -14px;
+}
+
+.bsl-footer-right ul li a {
+    color: #000;
+}
+
+.footer-bottom {
+    background: #e1e0d3;
+    /* padding-bottom: 20px; */
+}
+
+.footer-bottom small {
+    color: #3b3b3b;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+
+/*gallery secction css*/
+
+.heading {
+    text-align: center;
+    font-size: 2.0em;
+    letter-spacing: 1px;
+    padding: 40px;
+}
+
+.gallery-image {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-image img {
+    height: 250px;
+    width: 350px;
+    transform: scale(1.0);
+    transition: transform 0.4s ease;
+}
+
+.img-box {
+    box-sizing: content-box;
+    margin: 10px;
+    height: 250px;
+    width: 350px;
+    overflow: hidden;
+    display: inline-block;
+    color: white;
+    position: relative;
+    background-color: white;
+}
+
+.caption {
+    position: absolute;
+    bottom: 5px;
+    left: 20px;
+    opacity: 0.0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.transparent-box {
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 0, 0, 0);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: background-color 0.3s ease;
+}
+
+.img-box:hover img {
+    transform: scale(1.1);
+}
+
+.img-box:hover .transparent-box {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.img-box:hover .caption {
+    transform: translateY(-20px);
+    opacity: 1.0;
+}
+
+.img-box:hover {
+    cursor: pointer;
+}
+
+.caption>p:nth-child(2) {
+    font-size: 0.8em;
+}
+
+.opacity-low {
+    opacity: 0.5;
+}
+
+
+/*media query css*/
+
+@media only screen and (max-width: 1440px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .bsl-sect-item {
+        height: 370px;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .bsl-sect-item {
+        height: 366px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .bst-logo img {
+        margin: 0 auto;
+        display: block;
+        /*! padding-bottom: 40px; */
+        margin-bottom: 30px;
+    }
+    .bst-phn ul {
+        text-align: center;
+    }
+    .bst-email ul {
+        text-align: center;
+    }
+    .bst-phn ul span,
+    .bst-email ul span {
+        display: none;
+    }
+    .col-mb {
+        margin-bottom: 26px;
+    }
+    .bsl-footer-left ul {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .bsl-sect-item {
+        height: 343px;
+    }
+}
+
+@media only screen and (max-width: 445px) {
+    .bsl-sect-item {
+        height: 388px;
+    }
+}

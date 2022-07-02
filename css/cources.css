@@ -1,0 +1,27 @@
+@import "style.css";
+
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+.digital-article-right p{
+	font-family: 'Galada', cursive;
+}
+.read-more-btn{
+	background: #d0c66d;
+	color: #424242;
+	font-family: arial;
+	font-size: 17px;
+	font-weight: 600;
+	border-radius: 5px;
+	border: 2px solid #d0c66d;
+	display: inline-block;
+	padding: 0 10px;
+	transition: all 0.3s ease;
+}
+.read-more-btn:hover {
+    background: #424242;
+    color: #d0c66d;
+
+}
+.hide{
+	display: none;
+}

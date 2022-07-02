@@ -1,0 +1,100 @@
+@import "style.css";
+
+
+/*traniner section*/
+.bsl-tr-btn{
+	display: inline-block;
+	padding: 12px 28px;
+	background: #129c7a;
+	color: #f6f6f6; 
+	border-radius: 20px;
+	box-shadow: 0 2px 3px #131313;
+	border: 1px solid #129c7a;
+	transition: all 0.2s ease;
+	font-size: 18px;
+	font-weight: 600;
+}
+.bsl-tr-btn:hover{
+	color: #129c7a;
+	border: 1px solid #fffdfd;
+	background: #fff;
+	box-shadow: 0 2px 3px #b0b0b0;
+}
+
+.bsl-trainer-title{
+	display: block;
+	margin-top: -10px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*media query css*/
+@media only screen and (max-width: 1440px){
+	.container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+			max-width: 1200px;
+	}
+}
+
+
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+
+}
+
+
+@media only screen and (max-width: 991px){
+
+}
+
+
+@media only screen and (max-width: 767px){
+	.bst-logo img{
+		margin: 0 auto;
+		display: block;
+		/*! padding-bottom: 40px; */
+		margin-bottom: 30px;
+	}
+	.bst-phn ul{
+		text-align: center;
+	}
+	.bst-email ul{
+		text-align: center;
+	}
+
+	.bst-phn ul span,.bst-email ul span{
+		display: none;
+	}
+}
+
+
+@media only screen and (max-width: 575px){
+
+
+
+}
+
+
+@media only screen and (max-width: 445px){
+
+
+	
+}

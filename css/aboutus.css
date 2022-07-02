@@ -1,0 +1,12 @@
+@import "style.css";
+
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+.bslabout-us p{
+	padding: 40px 100px;
+	font-family: 'Galada', cursive;
+	font-size: 22px;
+	/*! font-weight: 500; */
+	color: #3c3b3b;
+}

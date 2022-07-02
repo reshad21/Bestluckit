@@ -1,0 +1,19 @@
+@import "style.css";
+
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+
+.bsl-admission-section .bsl-adf-top h3{
+	color: #4e5e73;
+}
+
+.bsl-gender-selection{
+	margin-top: 40px;
+}
+
+.form-check-input[type="radio"] {
+    border-radius: 20%;
+}
+.form-check-input:checked[type="radio"] {
+    background-image: url();
+}
